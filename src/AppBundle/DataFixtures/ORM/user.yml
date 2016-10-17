@@ -1,0 +1,9 @@
+AppBundle\Entity\User:
+    user_{1..100}:
+        firstname: <firstname()>
+        lastname: <lastname()>
+        gender: 1
+        phone: <phoneNumber()>
+        email: <freeEmail()>
+        password: <password()>
+        status: <numberBetween(0, 1)>
